@@ -1,0 +1,60 @@
+* {
+  font-family: "Niramit", sans-serif;
+}
+
+/*add item*/
+.addItem {
+  background:none;
+  display: inline;
+  position: relative;
+  left: 2%;
+}
+/* yapılacaklar yazılan kısım*/
+.addItem input {
+  width: 260px;
+  height: 25px;
+}
+/* ekleme butonum */
+.addItem span {
+  margin-left: 1%;
+  font-size: 100%;
+  background: yellow;
+  color: green;
+  font-weight: 900;
+  padding: 5px 10px;
+  border-radius: 100px;
+  cursor: pointer;
+  border: 1px solid green;
+}
+
+/*yeni görevler*/
+.görevler {
+  background-color: none;
+  display: block;
+  width: 30%;
+  padding: 0.2%;
+  margin-top: 3%;
+  margin-left: 2%;
+}
+
+.görevler ul li {
+  list-style: none;
+  width: 200%; //to do list ve olusturma tarihi arası mesafe kontrolüm
+  margin: 4% 0;
+  font-size: 115%;
+}
+ul li:nth-child(2n) {
+  background: #7888;
+}
+ul li:nth-child(2n-1) {
+  background: #8444;
+}
+
+/*tamamlanan görevleri bulanıklaştırma*/
+input[type="checkbox"]:checked + span {
+  opacity: 0.3;
+}
+
+input[type="checkbox"]:checked + span small {
+  opacity: 0.9;
+}
