@@ -4,6 +4,12 @@
     <title>ToDoList</title>
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
       href="https://fonts.googleapis.com/css?family=Niramit"
       rel="stylesheet"
     />
@@ -18,7 +24,11 @@
 
       <div class="addItem">
         <input id="text" type="text" placeholder="Bugün Ne Yapacaksın?" />
-        <span>Ekle</span>
+        <span>
+          <button type="button" class="btn btn-outline-danger">
+            EKLE
+          </button>
+        </span>
       </div>
 
       <!--add items-->
@@ -27,6 +37,7 @@
 
         <!--have items-->
         <ul class="list">
+          <li><!-- //yeni eklenenler buraya yazılıyor! --></li>
           
         </ul>
       </div>
