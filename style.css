@@ -14,18 +14,6 @@
   width: 260px;
   height: 25px;
 }
-/* ekleme butonum */
-.addItem span {
-  margin-left: 1%;
-  font-size: 100%;
-  background: yellow;
-  color: green;
-  font-weight: 900;
-  padding: 5px 10px;
-  border-radius: 100px;
-  cursor: pointer;
-  border: 1px solid green;
-}
 
 /*yeni görevler*/
 .görevler {
