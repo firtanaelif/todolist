@@ -18,7 +18,7 @@ window.onload = function() {
     todo_element.appendChild(span);
 
     document.getElementsByClassName("list")[0].appendChild(todo_element);
-    this.value="";
+    document.querySelector("input").value = "";
 
   };
   add_item.onkeypress = function(ekle) {
